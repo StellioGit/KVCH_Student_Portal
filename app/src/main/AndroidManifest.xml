@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ashis.kvch_student_portal">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name=".MainTree"
+            android:label="@string/title_activity_main_tree"
+            android:theme="@style/AppTheme.NoActionBar.NoActionBar"></activity>
+        <activity android:name=".login" />
+        <activity android:name=".FrstPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".signup" />
+        <activity android:name=".Home" />
+        <activity android:name=".Certificate" />
+        <activity android:name=".Suggestion" />
+        <activity android:name=".Projects" />
+        <activity android:name=".MyProfile" />
+        <activity android:name=".CeertificateList" />
+        <activity android:name=".MyprofileList" />
+        <activity android:name=".Batches" />
+        <activity android:name=".BatchList" />
+        <activity android:name=".MainProject" />
+        <activity android:name=".ProjectList" />
+        <activity android:name=".MainCourse" />
+        <activity android:name=".CourseList" />
+        <activity android:name=".MainSuggestion" />
+        <activity android:name=".MainDocument" />
+    </application>
+
+</manifest>

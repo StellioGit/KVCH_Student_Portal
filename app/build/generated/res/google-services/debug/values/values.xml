@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">279747310733-sktfjsjsj57a09ptipp6i38vcvf87jjg.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://kvchstudentportal.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">279747310733</string>
+    <string name="google_api_key" translatable="false">AIzaSyAxbCov5WcHkxXUFaxzuo6UGyQQCQUw3y4</string>
+    <string name="google_app_id" translatable="false">1:279747310733:android:4f90959dcc63b78d</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyAxbCov5WcHkxXUFaxzuo6UGyQQCQUw3y4</string>
+    <string name="google_storage_bucket" translatable="false">kvchstudentportal.appspot.com</string>
+    <string name="project_id" translatable="false">kvchstudentportal</string>
+</resources>

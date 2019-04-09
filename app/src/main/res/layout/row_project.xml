@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pink2">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student_id"
+            android:layout_marginLeft="10dp"
+            android:textSize="20dp"
+            android:id="@+id/tprstdntid"
+            android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Batch_id"
+            android:id="@+id/tprbatch"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Project_id"
+            android:id="@+id/tprprjct"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tprprjctname"
+            android:text="Project_Name"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textSize="20dp"
+            android:id="@+id/tprdesc"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dp" />
+
+
+
+
+
+    </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/pink2"
+    android:layout_rowSpan="2"
+    android:layout_columnSpan="2"
+    tools:context="com.example.ashis.kvch_student_portal.Certificate">
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Certificate Form"
+        android:id="@+id/project"
+        android:textSize="50dp"
+        android:paddingLeft="10dp"
+        android:textColor="#c7708b"
+        />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Kindly fill the appropriate information for processing your certificate."
+            android:textColor="#000"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold"
+            android:id="@+id/text1"
+            android:textSize="15dp"
+            />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Please note that you should double cross the details before submission."
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/text2"
+            android:textColor="#938e8e"
+
+
+            />
+        <TableRow
+            android:layout_marginTop="40dp">
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Name"
+                android:layout_weight="1"
+                android:textColor="#000"
+                android:id="@+id/edtname"
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="College Name"
+                android:textColor="#000"
+                android:layout_weight="1"
+                android:id="@+id/edtclgname"
+                />
+        </TableRow>
+
+        <TableRow>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Qualification"
+                android:layout_weight="1"
+                android:textColor="#000"
+                android:id="@+id/edtqual"
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Technology"
+                android:textColor="#000"
+                android:layout_weight="1"
+                android:id="@+id/edttech"
+                />
+        </TableRow>
+
+        <TableRow>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Start Date"
+                android:layout_weight="1"
+                android:textColor="#000"
+                android:id="@+id/edtstrt"
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="End Date"
+                android:textColor="#000"
+                android:layout_weight="1"
+                android:id="@+id/edtend"
+                />
+        </TableRow>
+        <TableRow>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Project Name"
+                android:layout_weight="1"
+                android:textColor="#000"
+                android:id="@+id/edtprjctname"
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Duration"
+                android:textColor="#000"
+                android:layout_weight="1"
+                android:id="@+id/edtduration"
+                />
+
+        </TableRow>
+
+        <TableRow>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Fees Paid"
+                android:layout_weight="1"
+                android:textColor="#000"
+                android:id="@+id/edtfees"
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Center Location"
+                android:textColor="#000"
+                android:layout_weight="1"
+                android:id="@+id/edtcenter"
+                />
+        </TableRow>
+        <TableRow>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:layout_weight="1"
+                android:textColor="#000"
+                android:id="@+id/edtemail"
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Contact No"
+                android:textColor="#000"
+                android:layout_weight="1"
+                android:id="@+id/edtcontact"
+                />
+
+        </TableRow>
+        <TableRow>
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="Student_id"
+                android:layout_weight="1"
+                android:textColor="#000"
+                android:id="@+id/edtstdntid"
+                />
+
+
+        </TableRow>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:id="@+id/submit"
+            android:background="#163831"
+            android:textColor="#fff"
+            android:layout_marginBottom="20dp"
+            />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="List"
+        android:id="@+id/listbtn"
+        android:background="#163831"
+        android:textColor="#fff"
+        />
+
+
+</TableLayout>
+
+
+

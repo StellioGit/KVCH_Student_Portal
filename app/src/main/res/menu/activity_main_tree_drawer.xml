@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single"/>
+
+        <item
+            android:id="@+id/nav_document"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Documents" />
+        <item
+            android:id="@+id/nav_batches"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Batches" />
+        <item
+            android:id="@+id/nav_course"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Course" />
+        <item
+            android:id="@+id/nav_certificate"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Certificate" />
+
+        <item
+            android:id="@+id/nav_project"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Project" />
+
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_myprofile"
+                android:icon="@drawable/ic_menu_share"
+                android:title="My Profile" />
+            <item
+                android:id="@+id/nav_suggestion"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Suggestion" />
+
+            <item
+                android:id="@+id/nav_signout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Signout" />
+
+
+        </menu>
+    </item>
+
+</menu>

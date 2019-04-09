@@ -1,0 +1,3 @@
+C:/Users/ashis/AndroidStudioProjects/KVCH_Student_Portal/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/native-lib.dir
+C:/Users/ashis/AndroidStudioProjects/KVCH_Student_Portal/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/edit_cache.dir
+C:/Users/ashis/AndroidStudioProjects/KVCH_Student_Portal/app/.externalNativeBuild/cmake/release/x86/CMakeFiles/rebuild_cache.dir
